@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>FYP</title>
+
+        <link rel="stylesheet" href="FYP Style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+    <!----header-->
+        <section class="header">
+            <nav>
+                
+                     <a href="fyp.html"> <img src="fyp logo9.png" class="logo"></a>
+                    <div class="nav-link" id="navlink" >
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="fyp.html">Home</a></li>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#about-us">About Us</a></li>
+                            <li class="dropdown">
+                                <a href="#">Enroll &#9662;</a>
+                                <div class="dropdown-content">
+
+                                    <a href="fyp ftutor.html" style="color:#0d5691;">Find a Tutor</a>
+                                    <a href="fyp btutor.html" style="color:#0d5691">Become a Tutor</a>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            
+                                <button style="left: 150px" type="submit" class="hero-btn">Login</button>
+                            
+                 
+                        </ul>
+
+                        
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>   
+            </nav>
+
+        </section>
+<!---corner icons------>
+        <a href="https://wa.me/923100802577" class="whats_num" style="display:block;bottom:29px" title="Whatsapp">
+            <img src="fyp whatsicon.png"style="width:50px" alt="Whatsapp"> 
+         </a> 
+
+         <a href="tel:+923158457021" class="whats_num1" style="display:block;bottom:29px" title="call">
+            <img src="fyp numicon.png"style="width:50px" alt="Call"> 
+        </a>
+
+        <a href="fyp.html" class="arrow" style="display:block;bottom:30px">
+            <img src="fyp uparrowicon.png" class="arrow1" style="width:45px" alt="Up"> 
+        </a>
+        
+            <div class="popup-ftutor" id="popup-container">
+                <div class="popup">
+                    <span class="close-button" onclick="closePopup()">&times;</span>
+                    <h1>Contact With Us</h1>
+                    <h3>If you want to become a tutor,
+                        <a href="fyp btutor.html" >click here.</a>    
+                    </h3>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                       
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                            <button type="button" class="cl-btn" onclick="closePopup()">Close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        
+       
+
+        <section class=" text-box ">
+            <div>
+                <h1> Don't just dream learn <br>with us..</h1>
+                <p> Change is the end result of all true Learning.</p>
+                <br>
+                <a href="fyp ftutor.html">
+                <button type="submit" class="hero-btn">Learners, Start Here</button>
+                 </a>
+            </div>
+        </section>
+
+        <!-- -------course------->
+<section class="sub-course">
+    <h1 id="courses" >Tutors By Subjects:</h1>
+    <p>
+        Our mission is to connect you with qualified educators who specialize
+        in your chosen subjects, ensuring personalized and effective learning experiences. 
+        Through our rigorous selection process, we match you with dedicated tutors equipped
+        with the expertise to help you excel in your academic pursuits. Whether it's math, 
+        science, language arts, or any other discipline, we are committed to finding the perfect teacher
+        for your educational needs.Let us guide you on a journey towards comprehensive and 
+        tailored academic support.
+    </p>
+    <div class="nrow icons ">
+        
+        <div class="sub-col">
+            <a href="fyp ftutor.html" class="block">
+                <span class="o-block ">
+                    <i class="fa fa-thermometer-full" style="color: #dfebf6;"></i>
+                </span>
+                 <h2>Chemistry</h2>    
+                <button class="sub-btn">5329 <br> Tutors</button>
+            </a>
+        </div>
+
+        <div class="sub-col">
+            <a href="fyp ftutor.html" class="block">
+                <span class="o-block">
+                    <i class="fa fa-balance-scale" style="color: #dfebf6;"></i>
+                </span>
+                 <h2>Maths</h2>    
+                <button class="sub-btn">6321 <br> Tutors</button>
+            </a>
+        </div>
+
+        <div class="sub-col">
+            <a href="fyp ftutor.html" class="block">
+                <span class="o-block">
+                    <i class="fa fa-assistive-listening-systems" style="color: #dfebf6;"></i>
+                </span>
+                 <h2>Physics</h2>    
+                <button class="sub-btn">3641 <br> Tutors</button>
+            </a>
+        </div>
+
+        <div class="sub-col">
+            <a href="fyp ftutor.html" class="block">
+                <span class="o-block">
+                    <i class="fa fa-laptop" style="color: #dfebf6;"></i>
+                </span>
+                 <h2>Computer</h2>    
+                <button class="sub-btn">6543 <br> Tutors</button>
+            </a>
+        </div>
+
+        <div class="sub-col">
+            <a href="fyp ftutor.html" class="block">
+                <span class="o-block">
+                    <i class="fa fa-book" style="color: #dfebf6;"></i>
+                </span>
+                 <h2>Quran</h2>    
+                <button class="sub-btn">6354 <br> Tutors</button>
+            </a>
+        </div>
+
+        <div class="sub-col">
+            <a href="fyp ftutor.html" class="block">
+                <span class="o-block">
+                    <i class="fa fa-id-card" style="color: #dfebf6;"></i>
+                </span>
+                 <h2>English</h2>    
+                <button class="sub-btn">3241 <br> Tutors</button>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- additional courses -->
+
+<section class="card">
+    <h1>Additional Programs:</h1>
+    <p>
+        "Explore our range of cutting-edge courses designed to equip you with the latest skills demanded in today's ever-evolving landscape. From data analytics to digital marketing, our diverse offerings cater to varied interests and professional aspirations, empowering you to thrive in your chosen field."
+    </p>
+    
+
+    <div class="cd-row">
+        
+
+        <div class="card-col">
+            <a href="fyp additional Program.html"><img src="card1.jpeg" ></a>
+            <a href="fyp additional Program.html">Learn Foundation of Graphic Designing</a>
+            <p> 90 min - <span>4200Rs</span>, <span style="color: #0d5691; text-decoration: none;">3000Rs</span> | <a href="fyp ftutor.html"> <button type="button"> Apply Now</button></a></p>
+        </div>
+
+        <div class="card-col">
+           <a href="fyp additional Program.html"> <img src="card2.jpeg" ></a>
+            <a href="fyp additional Program.html">Learn Digital Marketing</a>
+            <p> 120 min - <span>6000Rs</span>, <span style="color: #0d5691; text-decoration: none;">3500Rs</span> | <a href="fyp ftutor.html"> <button type="button"> Apply Now</button></a></p>
+        </div>
+    </div>  
+   
+    
+
+    <div class="cd-row">
+        
+
+        <div class="card-col">
+            <a href="fyp additional Program.html"><img src="card5.jpeg"></a>
+            <a href="fyp additional Program.html">AT Automation With Python</a>
+            <p> 120 min - <span>5500Rs</span>, <span style="color: #0d5691; text-decoration: none;">3300Rs</span> | <a href="fyp ftutor.html"> <button type="button"> Apply Now</button></a></p>
+        </div>
+
+        <div class="card-col">
+            <a href="fyp additional Program.html"><img src="card6.jpeg" ></a>
+            <a href="fyp additional Program.html">Learn AI For Everyone</a>
+            <p> 60 min - <span>45000Rs</span>, <span style="color: #0d5691; text-decoration: none;">3100Rs</span> | <a href="fyp ftutor.html"> <button type="button"> Apply Now</button></a></p>
+        </div>
+    </div> 
+
+    <div class="cd-row">
+
+        <div class="card-col">
+            <a href="fyp additional Program.html"><img src="card4.jpeg" ></a>
+            <a href="fyp additional Program.html">UI/UX Design Specialization </a>
+            <p> 60 min - <span>6200Rs</span>, <span style="color: #0d5691; text-decoration: none;">3800Rs</span> | <a href="fyp ftutor.html"><button type="button"> Apply Now</button></a></p>
+        </div>
+    </div> 
+      
+
+</section>
+
+<section class="course">
+    <h1  style="font-size: 35px; padding-top: 0%; color: #063c3f;">
+        Our services:
+    </h1>
+    <br>
+    <br>
+    <p>
+        Our services cater to a diverse range of learning needs, 
+        from computer courses encompassing programming languages, web development, 
+        and graphic design to language courses covering English, Urdu, Arabic, and more. 
+        Additionally, we offer comprehensive Islamic courses, including Quranic studies, 
+        Tajweed, and Fiqah. Our team of highly qualified professional tutors is dedicated to
+         providing personalized and effective learning experiences, ensuring that students 
+         receive the best possible education. Through our rigorous selection process, 
+         we match students with dedicated educators who have the expertise to help them 
+         excel in their academic pursuits.
+     </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Computer Courses</h3>
+            <ul>
+                <li>Programming language(python,C,<br>C#,C++,Java,PHp,Django,JavaScript)</li>
+                <li>Web & Mobile App Development</li>
+                <li>Flutter App Development</li>
+                <li>MS Office App</li>
+                <li>Html Css</li>
+                <li>Graphic Design</li>
+                <li>Canva</li>
+                
+            </ul>
+        </div>
+
+        <div class="course-col">
+        
+            <h3>Language Courses</h3>
+            <div class="row">
+
+           
+                <ul >
+                    <li>English(British & American Accent)</li>
+                    <li>Urdu</li>
+                    <li>Arabic</li>
+                    <li>French</li>
+                    <li>Korean</li>
+                    <li>Japnese</li>
+                    <li>And Much More</li>
+                </ul>
+
+            </div>
+            
+        </div>
+
+        <div class="course-col">
+            <h3>Islamic Courses</h3>
+                <ul >
+                    <li>Quran With Tajweed</li>
+                    <li>Quran With Translation</li>
+                    <li>Quranic Arabic</li>
+                    <li>Tafseer e Quran</li>
+                    <li>Hadith</li>
+                    <li>Fiqah</li>
+                    <li>Usool e Fiqah</li>
+                    <li>Ayat ul ahkam</li>
+                    
+                </ul>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+<!----About Us---->
+
+<section class="about-us">
+     <h1 id="about-us" style="text-align: center;font-size: 45px; "> About Us:</h1>
+     <p style="text-align: center;font-size: 20px; ">With the goal of enabling people everywhere to have happy, meaningful, and successful lives..<br>
+        When selecting the greatest instructors for our institution, we don't skimp on quality. On the contrary, we thoroughly review each teacher's 
+        educational history and only choose those who are capable of fostering academic success in others as well as in themselves.
+        You can be confident that every tutor in Tutor Track has undergone a thorough verification process and 
+        holds the necessary credentials. Every instructor has the authority and capacity to provide
+         you the best possible education. Additionally, we have a teacher site where we can view student progress,
+        which is exclusively accessible to academic authorities.</p>
+
+        <div class="row">
+
+        <div class="about-col">
+            <h2>Highly Qualified Profesional Tutors</h2>
+            <p>
+                To assist you learn everything you need to know to ace your tests,
+                our knowledgeable and licenced tutors are on hand.
+                Our committed teachers can assist you in achieving your objectives,
+                whether you want to strengthen your English abilities, 
+                master the fundamentals of accounting, or brush up on your mathematical knowledge.
+                We provide online tutoring services across Pakistan along with tuition services
+                for all courses and disciplines. We have the ideal tutor for you,
+                no matter what your learning needs may be!</br>
+                Some Of Our Teacher Has Recorded Their Sessions You Can Go Through It..</br>
+                <a href="https://youtu.be/HlCDzqbmr6o" class="hero-btn blue-btn"><b>Recorded Sessions.</b></a>
+            </p>
+        </div>
+
+        <div class="about-col">
+            <img src="fyp about1.png" >
+        </div>
+
+        </div>
+
+    <div class="row">
+
+        <div class="about-col">
+            <img src="fyp about2.png" >
+        </div>
+
+        <div class="about-col">
+            <h2>Selecting a Top-Notch Tutor is Crucial</h2>
+            <p>
+                Finding a trustworthy teacher for the specific courses they require 
+                assistance with is one of the main problems that many students have. 
+                To deliver the greatest tutoring experience possible, New Generation 
+                Online Academy only works with tutors that have a wealth of knowledge in 
+                their particular fields, are dedicated to their work, and have a strong 
+                sense of loyalty for their students. Your kids will benefit from the 
+                best learning opportunities thanks to your commitment.
+
+            </p>
+        </div>
+
+    </div>
+   
+</section>
+
+<!----why choose ussssssssss-->
+
+<section class="facilities">
+    <h1>Why Choose Us? We Care</h1>
+    <p>
+        We understand that making decisions for your child's education can be challenging. 
+        Henderson International School is proud to offer an unparalleled educational experience 
+        that will inspire your child to reach their full life potential.
+    </p>
+
+    <div class="wrow">
+        <div class="facilities-col">
+            <img src="facility1.jpg" >
+            <h3>Personalized Programs</h3>
+            <p>Every student is unique,which means every educational program we develop is unique</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="facility2.jpg" >
+            <h3>Self-Paced Learning</h3>
+            <p>Students handle classes and assignments based on their schedule, not ours</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="facility3.jpg" >
+            <h3>Teacher for Every Student</h3>
+            <p>Teachers provide one-on-one support for every student</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="facility4.jpg" >
+            <h3>Regular Communication</h3>
+            <p>Teachers contact students regularly and provide guardians with reports</p>
+        </div>
+    </div>  
+    <div class="wrow">    
+        <div class="facilities-col">
+            <img src="facility5.jpg" >
+            <h3>Intuitive Online Tools</h3>
+            <p>Classes and assignments are powered by interactive programs and apps</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="facility6.jpg " >
+            <h3>Modern Coursework</h3>
+            <p>Classes and assignments involve videos, webinars, and projects</p>
+        </div>
+       
+        <div class="facilities-col  ">
+            <img src="facility7.jpg">
+            <h3>Fully Accredited</h3>
+            <p>We are a fully accredited school meeting national and Michigan education standards</p>
+        </div>
+
+        <div class="facilities-col ">
+            <img src="facility8.jpg" >
+            <h3>Placed with a District</h3>
+            <p>Students at My Virtual Academy will be placed in a participating school district</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!---help---->
+
+<section class="help">
+    <h1> Getting help is easier than you think </h1>
+    <div class="rrow ">    
+        <div class="req-col">
+            <h2> 1) TELL US YOUR REQUIREMENTS</h2>
+            <img src="req.jfif">
+            <p> After giving you a thorough listening, our representative would make a 
+                note of all your needs. What you want to learn, when you want to study it,
+                 the gender of the tutor, how much you can afford, etc.
+            </p>
+        </div>
+
+        <div class="req-col">
+            <h2>2) SCHEDULE MEETINGS WITH TUTORS</h2>
+            <img src="req2.jfif">
+            <p> We sort our tutor database based on your needs, then give the tutors
+                 your contact information. Tutor meetings can be scheduled at a time that 
+                 works best for you.
+            </p>
+        </div>
+    </div>
+
+    <div class="rrow">
+        <div class="req-col">
+            <h2>3) DEMONSTRATION CLASS</h2>
+            <img src="req3.jfif">
+            <p> 
+                You can meet with the tutor to discuss your needs, including the number
+                 of tutoring days, during a trial class.
+            </p>
+        </div>
+
+        <div class="req-col">
+            <h2>4) MAKE PAYMENTS AND START LEARNING</h2>
+            <img src="req4.jfif">
+            <p> 
+                Paying TEACH TRACK in advance is required. And if you pay tutors directly,Then 
+                TEACH TRACK is no longer guarantees the tutor and will not be held accountable.
+            </p>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!----footer---->
+
+
+    <footer id="contact">
+        <div class="frow">
+            <div class="fcol">
+                <img src="fyp logo9.png" class="flogo" >
+                <p>
+                    "Through interactive and engaging virtual classrooms, we empower students to explore their 
+                    full potential, build critical skills, and achieve academic excellence. 
+                    Join us on this transformative journey towards knowledge, growth, and success."
+                </p>
+            
+            </div>
+            <div class="fcol">
+                <h3>office 
+                    <div class="underline">
+                        <span></span>
+                    </div>
+                </h3>
+                <p>It's completely </p>
+                <p> based on </p>
+                <p> online learning platform</p>
+                <p class="femail-id">sidraali0219@gamil.com</p>
+                <h4>+92-3100802577</h4>
+            </div>
+            <div class="fcol">
+                <h3>links
+                    <div class="underline">
+                        <span></span>
+                    </div>
+
+                </h3>
+                <ul>
+                    <li><a href="fyp.html">Home</a></li>
+                    <li><a href="fyp.html#courses">Courses</a></li>
+                    <li><a href="fyp.html#about-us">About Us</a></li>
+                    <li><a href="fyp ftutor.html">Find a Tutor</a></li>
+                    <li> <a href="fyp btutor.html">Become a Tutor</a></li>
+                     <li><a href="#contact">Contact Us</a></li>
+     
+                </ul>
+
+            </div>
+            <div class="fcol">
+                <h3>Newsletter
+                    <div class="underline">
+                        <span></span>
+                    </div>
+                </h3>
+                <form class="f-form">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" placeholder="enter your email  id" required>
+                    <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                </form>
+
+                <div class="social-icons">
+                   <a href="https://www.facebook.com/hwquranacademy1918"><i class="fa fa-facebook"></i></a> 
+                   <a href="https://www.instagram.com/hw_quran_academy.1918/"><i class="fa fa-instagram"></i></a>
+                   <a href="https://wa.me/923100802577"><i class="fa fa-whatsapp"></i></a> 
+                    <a href="https://www.linkedin.com/in/sidra-ali-b68536243/">  <i class="fa fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <p class="copyright">Copyright © 2023 All rights reserved | This Web is made with 
+            <a href="fyp.html">Teach Track</a>
+        </p>
+    </footer>
+
+
+
+
+<!-----javaScript for toggle menu------->
+<script>
+    var navlink = document.getElementById("navlink");
+ 
+     function showMenu()
+         {
+             navlink.style.right ="0";
+         }
+     function hideMenu()
+         {
+             navlink.style.right ="-200px";
+         }
+ </script>
+
+<script>
+    // JavaScript function to open the popup
+    function openPopup() {
+        document.getElementById("popup-container").style.display = "flex";
+    }
+    
+    // JavaScript function to close the popup
+    function closePopup() {
+        document.getElementById("popup-container").style.display = "none";
+    }
+    
+    // Call openPopup() function when the page loads to display the popup
+    window.onload = openPopup;
+    
+    
+    </script>
+
+
+
+
+
+
+
+    </body>
+
+</html>
